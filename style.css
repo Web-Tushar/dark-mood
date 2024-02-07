@@ -1,0 +1,75 @@
+/* ======common code start here==== */
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+ul,ol{
+     list-style-type: none;
+     
+}
+a{
+     text-decoration: none;
+}
+
+/* ======common code end here==== */
+
+.container{
+ width: 1200px;
+ margin: 0 auto;
+}
+
+.navber{
+     background-color: aqua;
+     padding: 5px;
+}
+.nav_wrapper{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.logo{
+     width: 20%;
+     height: auto;
+     overflow: hidden;
+     object-fit: cover;
+}
+
+
+.logo img{
+     width: 50px;
+     object-fit: cover;
+     /* height: 100%; */
+}
+.menu{
+     width: 60%;
+}
+.menu ul{
+     display: flex;
+     justify-content: center;
+     column-gap: 80px;
+     align-items: center;
+}
+
+.menu ul .nav-li{
+font-size: 30px;
+}
+
+.btn_group{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 20%;
+     /* background-color: black; */
+}
+.toogle{
+     display: flex;
+     font-size: 30px;
+}
+
+.log_btn{
+   padding: 5px;
+   font-size: 30px;
+   border-radius: 5px;
+}
