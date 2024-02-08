@@ -71,7 +71,13 @@ a{
 .menu ul .nav-li{
 font-size: 30px;
 color: var(--secondary_color);
+transition: all linear .2s;
 }
+.menu ul .nav-li:hover{
+color: green;
+}
+     
+     
 
 .btn_group{
      display: flex;
